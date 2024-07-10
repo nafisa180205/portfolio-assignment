@@ -44,8 +44,59 @@ a{
 }
 
 
+.btn-footer{
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 12px 20px 12px 20px;
+    border: none;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    
+}
+
+
+
+.btn-header{
+    padding: 17px 24px 17px 24px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+    
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+
+}
+.btn-header a{
+    color: rgb(13, 19, 33);
+
+}
+
+
 
 /* shared css  */
+
+/* header section starts here */
+.header-section{
+    width: 100%;
+    height: 80px;
+
+}
+
+.header-container{
+    width: 1140px;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 20px;
+
+}
+/* header section ends here */
 
 /* banner section starts here */
 .banner-section{
@@ -227,3 +278,219 @@ a{
 
 }
 /* inspiration section ends here */
+
+
+/* Current target section starts here */
+.current-target-section{
+    width: 1140px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+.current-text-container{
+    width: 852px;
+    height: 113px;
+}
+
+.current-text-container h2{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+
+}
+
+.current-text-container p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    opacity: 0.7;
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+}
+
+
+
+.current-card .card img{
+    width: 56px;
+    height: 56px;
+    margin-bottom: 15px;
+}
+
+.current-card {
+    width: 1140px;
+    height: 340px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.current-card .card{
+    width: 330px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding: 40px;
+}
+.current-card .card h3{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    text-align: left;
+}
+.current-card .card p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    opacity: 0.7;
+    padding-top: 5px;
+}
+
+
+.current-card .card a{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 15px;
+    text-align: left;
+    text-decoration-line: underline;
+
+}
+
+.color-pink{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+
+}
+
+.color-blue{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.color-light-pink{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+/* Current target section ends here */
+
+
+/* support section starts here  */
+.support-section{
+
+    width: 1140px;
+    height: 314px;
+    border-radius: 16px;
+
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    /* border: 2px solid pink; */
+    background-image: url("../assets/handshake.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 70px;
+    
+}
+.support-container{
+    
+    width: 1044px;
+    height: 186px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.support-container h2{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.support-container p{
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    opacity: 0.7;
+    padding: 15px 0;
+}
+
+.only-form{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.support-container .only-form input[type="email"]{
+    width: 580px;
+    height: 54px;
+    border: none;
+    padding-left:30px;
+    border-radius: 8px;
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.support-container .only-form input[type="submit"]{
+    width: 140px;
+    height: 54px;
+}
+
+/* support section ends here  */
+
+/* footer section starts here */
+.footer-section{
+    width: 100%;
+    height: 100px;
+    border-radius: 16px;
+    background-color: rgba(13, 19, 33, 0.03);
+
+
+}
+.footer-container{
+    width: 1140px;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 32px;
+
+}
+
+.footer-container h2{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.footer-container .links img{
+    width: 36px;
+    height: 36px;
+
+} 
+/* footer section ends here */
